@@ -1,0 +1,11 @@
+framework module Digioh {
+  umbrella header "Digioh.h"
+
+  export *
+  module * { export * }
+}
+
+module Digioh.Swift {
+  header "Digioh-Swift.h"
+  requires objc
+}
